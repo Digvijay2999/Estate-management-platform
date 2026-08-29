@@ -32,7 +32,7 @@ export default function SearchPage() {
       <div className="grid gap-6 md:grid-cols-3">
         {propertyResults.map((property) => (
           <article key={property.title} className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
-            <div className="h-44 rounded-2xl bg-gradient-to-br from-slate-200 to-emerald-100" />
+            <div className="h-44 rounded-2xl bg-linear-to-br from-slate-200 to-emerald-100" />
             <h2 className="mt-4 text-xl font-bold text-slate-900">{property.title}</h2>
             <p className="mt-2 text-slate-600">{property.location}</p>
             <p className="mt-4 text-2xl font-bold text-slate-900">{property.price}</p>

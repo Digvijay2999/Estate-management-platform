@@ -43,7 +43,7 @@ export default function HomePage() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12">
-      <section className="relative mb-12 overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-600 to-slate-800 p-8 text-white shadow-xl">
+      <section className="relative mb-12 overflow-hidden rounded-3xl bg-linear-to-br from-emerald-600 to-slate-800 p-8 text-white shadow-xl">
         <div className="absolute inset-0 opacity-20 blur-3xl" style={{ backgroundImage: `url(${HeroImg})`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
         <div className="relative z-10 grid gap-8 md:grid-cols-2 md:items-center">
           <div className="space-y-6">
