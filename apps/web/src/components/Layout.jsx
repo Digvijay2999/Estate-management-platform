@@ -82,8 +82,9 @@ export function Layout({ children }) {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900">
       <header className="border-b border-slate-200 bg-white/90 backdrop-blur-sm">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <Link to="/" className="text-xl font-bold tracking-tight text-slate-900">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">                  
+          <Link to="/" className="flex items-center gap-2 text-xl font-bold tracking-tight text-slate-900">
+            <img src="/favicon.svg" className="h-10 w-10" alt="" />
             {t('app.title')}
           </Link>
 
